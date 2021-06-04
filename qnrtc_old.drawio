@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T07:16:42.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="fN7W4cAi6s2SH4NbErcT" version="14.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-04T07:20:53.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="r5fY2L2FlM66sRgLUP_p" version="14.7.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="946" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="Gz4G_NNeVK80VPYpn5j1-21" value="创建本地 Track以及预览&lt;br&gt;(也可在加入房间后创建)" style="whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="40" y="230" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Gz4G_NNeVK80VPYpn5j1-22" value="&lt;div style=&quot;text-align: left&quot;&gt;createTrack&lt;font color=&quot;#795da3&quot; face=&quot;consolas, liberation mono, menlo, courier, monospace&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;background-color: rgb(245 , 245 , 245)&quot;&gt;(&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(121 , 93 , 163) ; background-color: rgb(245 , 245 , 245) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;liberation mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;courier&amp;#34; , monospace ; font-size: 0.85em&quot;&gt;QNMicrophoneAudioTrackConfig&lt;/span&gt;)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#457B9D;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;" edge="1" parent="1" source="Gz4G_NNeVK80VPYpn5j1-1" target="Gz4G_NNeVK80VPYpn5j1-8">
+        <mxCell id="Gz4G_NNeVK80VPYpn5j1-22" value="&lt;div style=&quot;text-align: left&quot;&gt;createTrackInfoBuilder&lt;font color=&quot;#795da3&quot; face=&quot;consolas, liberation mono, menlo, courier, monospace&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;background-color: rgb(245 , 245 , 245)&quot;&gt;(audio)&lt;/span&gt;&lt;/font&gt;.build()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#457B9D;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;" edge="1" parent="1" source="Gz4G_NNeVK80VPYpn5j1-1" target="Gz4G_NNeVK80VPYpn5j1-8">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="190" y="249" as="sourcePoint" />
             <mxPoint x="410" y="251" as="targetPoint" />
@@ -82,7 +82,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gz4G_NNeVK80VPYpn5j1-23" value="&lt;span style=&quot;text-align: left&quot;&gt;createTrack&lt;/span&gt;&lt;font color=&quot;#795da3&quot; face=&quot;consolas, liberation mono, menlo, courier, monospace&quot; size=&quot;1&quot; style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;background-color: rgb(245 , 245 , 245)&quot;&gt;(&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;text-align: left ; color: rgb(121 , 93 , 163) ; background-color: rgb(245 , 245 , 245) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;liberation mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;courier&amp;#34; , monospace ; font-size: 0.85em&quot;&gt;QNCameraVideoTrackConfig&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.51;exitY=0.223;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#457B9D;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;" edge="1" parent="1" source="Gz4G_NNeVK80VPYpn5j1-1" target="Gz4G_NNeVK80VPYpn5j1-8">
+        <mxCell id="Gz4G_NNeVK80VPYpn5j1-23" value="&lt;span style=&quot;text-align: left&quot;&gt;createTrackInfoBuilder&lt;/span&gt;&lt;font color=&quot;#795da3&quot; face=&quot;consolas, liberation mono, menlo, courier, monospace&quot; size=&quot;1&quot; style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;background-color: rgb(245 , 245 , 245)&quot;&gt;(video)&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;text-align: left&quot;&gt;.build()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.51;exitY=0.223;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#457B9D;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;" edge="1" parent="1" source="Gz4G_NNeVK80VPYpn5j1-1" target="Gz4G_NNeVK80VPYpn5j1-8">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="190" y="291" as="sourcePoint" />
             <mxPoint x="250" y="290" as="targetPoint" />
@@ -188,7 +188,7 @@
             <mxPoint x="460" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gz4G_NNeVK80VPYpn5j1-44" value="subscribe(uid, Tracks)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#457B9D;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;" edge="1" parent="1" target="Gz4G_NNeVK80VPYpn5j1-12">
+        <mxCell id="Gz4G_NNeVK80VPYpn5j1-44" value="subscribeTracks(Tracks)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;strokeColor=#457B9D;fontColor=#1D3557;labelBackgroundColor=#F1FAEE;" edge="1" parent="1" target="Gz4G_NNeVK80VPYpn5j1-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="174" y="750" as="sourcePoint" />
           </mxGeometry>
